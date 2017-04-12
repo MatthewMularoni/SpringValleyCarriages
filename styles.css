@@ -1,0 +1,395 @@
+body{
+zoom:70%;
+width:1440px;
+background:#E8DFCD;
+margin:0px auto;
+text-align:center;
+font-family: 'Alegreya Sans SC',sans-serif;
+font-weight:700;
+letter-spacing:2.5px;
+}
+
+#redbar{
+margin:auto;
+left:0;
+right:0;
+position:absolute;
+background:#5D281A;
+width:100%;
+height:375px;
+margin-top:70px;
+z-index:-2;
+}
+
+#whitebar{
+margin:auto;
+left:0;
+right:0;
+position:absolute;
+background:white;
+width:1440px;
+height:70px;
+z-index:-2;
+}
+
+#paper{
+margin:auto;
+left:0;
+right:0;
+position:absolute;
+margin-top:445px;
+z-index:-3;
+}
+
+footer{
+color:white;
+position:absolute;
+background-color:#5D281A;
+height:60px;
+width:100%;
+margin-top:1060px;
+}
+
+footer a{
+text-decoration:none;
+color:white;
+}
+
+#topnav{
+top:0;
+margin-right:25px;
+position:relative;
+z-index:1;
+float:right;
+}
+
+#spec h1{
+color:white;
+font-weight:500;
+font-size:165%;
+letter-spacing:3px;
+border-bottom:2px dashed #5D281A;
+}
+
+#west h1{
+color:white;
+font-weight:500;
+font-size:165%;
+letter-spacing:3px;
+border-bottom:2px dashed #5D281A;
+}
+
+#wedd h1{
+color:white;
+font-weight:500;
+font-size:165%;
+letter-spacing:3px;
+border-bottom:2px dashed #5D281A;
+}
+
+#spec p{
+color:#5D281A;
+font-weight:500;
+font-size:145%;
+letter-spacing:3px;
+}
+
+#west p{
+color:#5D281A;
+font-weight:500;
+font-size:145%;
+letter-spacing:3px;
+border-left:3px solid #5D281A; 
+border-right:3px solid #5D281A;
+padding-left:75px;
+padding-right:85px;
+height:200px; 
+}
+
+#wedd p{
+color:#5D281A;
+font-weight:500;
+font-size:145%;
+letter-spacing:3px;
+}
+
+#img{
+width:100%;
+}
+
+#logo{
+position:relative;
+z-index:2;
+float:left;
+margin-left:60px;
+}
+
+#slidebg{
+position:relative;
+z-index:1;
+float:left;
+margin-top:-70px;
+margin-left:34px;
+}
+
+#topnav li{
+float:left;
+text-transform:uppercase;
+padding-left:75px;
+}
+
+#topnav li a{
+color:#5D281A;
+}
+
+li{
+list-style:none;
+}
+
+nav{
+margin-top:9px;
+float:right;
+margin-right:65px;
+}
+
+nav li a{
+text-decoration:none;
+}
+
+#spec{
+width:23%;
+float:left;
+margin-left:65px;
+}
+
+#west{
+width:32%;
+float:left;
+margin-left:95px;
+}
+
+#wedd{
+width:23%;
+float:right;
+margin-right:65px;
+}
+
+#topnav li a:hover{
+color:white;
+background:#5D281A;
+border-radius:5px;
+}
+
+#slider {
+position:relative;
+z-index:3;
+float:left;
+margin-top:72px;
+margin-left:525px;
+width:858px;
+height:572px;
+background:url(images/loading.gif) no-repeat 15% 15%;
+}
+
+#slider img {
+position:absolute;
+top:0px;
+left:0px;
+display:none;
+}
+
+#more1 p{
+z-index:4;
+position:absolute;
+float:left;
+font-weight:400;
+font-size:140%;
+color:white;
+background:#5D281A;
+border-radius:5px;
+height:30px;
+width:75px;
+margin-left:235px;
+margin-top:630px;
+}
+
+#more2 p{
+z-index:4;
+position:absolute;
+float:left;
+font-weight:400;
+font-size:140%;
+color:white;
+background:#5D281A;
+border-radius:5px;
+height:30px;
+width:75px;
+margin-left:200px;
+margin-top:1015px;
+}
+
+#more3 p{
+z-index:4;
+position:absolute;
+float:left;
+font-weight:400;
+font-size:140%;
+color:white;
+background:#5D281A;
+border-radius:5px;
+height:30px;
+width:75px;
+margin-left:670px;
+margin-top:1015px;
+}
+
+#more4 p{
+z-index:4;
+position:absolute;
+float:left;
+font-weight:400;
+font-size:140%;
+color:white;
+background:#5D281A;
+border-radius:5px;
+height:30px;
+width:75px;
+margin-left:1165px;
+margin-top:1015px;
+}
+
+#calender {
+position:relative;
+z-index:3;
+float:left;
+margin-top:72px;
+margin-left:525px;
+width:720px;
+height:600px;
+}
+
+#yourinfo, #eventinfo  {
+color:white;
+margin-left:15px;
+text-align:left;
+margin-top:100px;
+position:relative;
+z-index:3;
+float:left;
+}
+
+label{
+clear:left;
+float:left;
+width:40%;
+margin-top: 4px;
+margin-bottom: 4px;
+padding-left:4px;
+display:block;
+font-size:0.8em;
+}
+
+#submit{
+margin-left:-360px;
+color:#5D281A;
+text-align:left;
+margin-top:100px;
+position:relative;
+z-index:3;
+float:left;
+}
+#submit input{
+clear:left;
+float:left;
+width:40%;
+margin-top: 4px;
+margin-bottom: 4px;
+padding-left:4px;
+display:block;
+font-size:0.8em;
+}
+
+#specialpage{
+float:left;
+width:100%;
+text-align:center;
+}
+
+#specialpage h1{
+color:white;
+float:left;
+width:100%;
+font-size:135%;
+text-decoration:underline;
+}
+
+#specialpage p{
+color:white;
+width:50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#weddingpage{
+float:left;
+width:100%;
+text-align:center;
+}
+
+#weddingpage h1{
+color:white;
+float:left;
+width:100%;
+font-size:135%;
+text-decoration:underline;
+}
+
+#weddingpage p{
+color:white;
+width:50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+table, tr, th, td{
+border: 1px solid white;
+}
+
+table{
+padding-top:10px;
+float:left;
+color:white;
+text-align:left;
+margin-top:150px;
+}
+
+caption{
+padding-bottom:10px;
+}
+
+#spectab1{
+margin-left:50px
+}
+
+#spectab2{
+float:right;
+margin-right:50px;
+}
+
+#weddtab1{
+margin-left:50px
+}
+
+#weddtab2{
+float:right;
+margin-right:50px;
+}
+
+#weddtab2 caption{
+padding-bottom:95px;
+}
+
+#capbot{
+padding-top:50px;
+}
+
